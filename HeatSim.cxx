@@ -1,18 +1,38 @@
 #include <iostream>
 
 #include "HeatSim.h"
+#include "TRint.h"
+#include "TVirtualPad.h"
+#include "TMath.h"
+#include "TROOT.h"
 
+Double_t redshift(Double_t velocity, Double_t frequencyOfLight) {
+  Double_t shiftedFrequency = ((TMath::C() - velocity)/(TMath::C())) * frequencyOfLight;
 
+  return shiftedFrequency;
+
+}
 
 int main() {
 
-  TVector3 *vec = new TVector3(1, 2, 3);
+  const Double_t WiensDisplacementConstant = 2.897771955e-3;
+  Double_t startingTemp = 10e13;
+  Double_t expansionAcceleration = 17000;
+  Double_t currentExpasionSpeed = 0;
 
-  TCanvas *c1 = new TCanvas("c1", "c1", 300, 600);
+  Double_t heat = startingTemp;
+  Double_t peakWavelength = WiensDisplacementConstant/heat;
 
-  TH2F *test = new TH2F();
+  TGraph *universe = new TGraph();
 
-  test->Draw();
+  for (int i = 0; i < 1000; i++) {
+    universe->SetPoint(universe->GetN(), i, heat);
+    currentExpasionSpeed += expansionAcceleration;
+    heat = WiensDisplacementConstant/ (TMath::C()/redshift(currentExpasionSpeed, TMath::C()/peakWavelength));
+    peakWavelength = WiensDisplacementConstant/heat;
+  }
+
+  universe->Draw();
 
   return 0;
 }

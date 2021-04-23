@@ -65,6 +65,8 @@ TPad.h
 /home/advait/Documents/Coding/HeatSimulation/TPad.h
 TH2F.h
 /home/advait/Documents/Coding/HeatSimulation/TH2F.h
+TCanvas.h
+/home/advait/Documents/Coding/HeatSimulation/TCanvas.h
 
 /home/advait/rootbuild/include/Buttons.h
 
@@ -238,6 +240,10 @@ GuiTypes.h
 Rtypes.h
 /home/advait/rootbuild/include/Rtypes.h
 
+/home/advait/rootbuild/include/TAttCanvas.h
+Rtypes.h
+/home/advait/rootbuild/include/Rtypes.h
+
 /home/advait/rootbuild/include/TAttFill.h
 Rtypes.h
 /home/advait/rootbuild/include/Rtypes.h
@@ -277,6 +283,12 @@ string
 -
 typeinfo
 -
+
+/home/advait/rootbuild/include/TCanvas.h
+TPad.h
+/home/advait/rootbuild/include/TPad.h
+TAttCanvas.h
+/home/advait/rootbuild/include/TAttCanvas.h
 
 /home/advait/rootbuild/include/TClass.h
 TDictionary.h

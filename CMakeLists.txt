@@ -14,4 +14,4 @@
    root_generate_dictionary(G__HeatSim HeatSim.h MODULE HeatSim LINKDEF HeatSimLinkDef.h)
 
    add_executable(HeatSimulation HeatSim.cxx G__HeatSim.cxx)
-   target_link_libraries(HeatSimulation Core Physics Graf MathCore Gui Hist RooFitCore)
+   target_link_libraries(HeatSimulation Core Physics Graf MathCore Gui Hist RooFitCore Gpad)

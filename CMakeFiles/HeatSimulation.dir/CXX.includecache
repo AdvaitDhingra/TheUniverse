@@ -11,6 +11,14 @@ iostream
 -
 HeatSim.h
 /home/advait/Documents/Coding/HeatSimulation/HeatSim.h
+TRint.h
+/home/advait/Documents/Coding/HeatSimulation/TRint.h
+TVirtualPad.h
+/home/advait/Documents/Coding/HeatSimulation/TVirtualPad.h
+TMath.h
+/home/advait/Documents/Coding/HeatSimulation/TMath.h
+TROOT.h
+/home/advait/Documents/Coding/HeatSimulation/TROOT.h
 
 /home/advait/Documents/Coding/HeatSimulation/HeatSim.h
 TVector3.h
@@ -27,6 +35,16 @@ TCanvas.h
 /home/advait/Documents/Coding/HeatSimulation/TCanvas.h
 
 /home/advait/rootbuild/include/Buttons.h
+
+/home/advait/rootbuild/include/Bytes.h
+RtypesCore.h
+/home/advait/rootbuild/include/RtypesCore.h
+cstring
+-
+Byteswap.h
+/home/advait/rootbuild/include/Byteswap.h
+
+/home/advait/rootbuild/include/Byteswap.h
 
 /home/advait/rootbuild/include/DllImport.h
 
@@ -142,6 +160,18 @@ DllImport.h
 cstddef
 -
 
+/home/advait/rootbuild/include/TApplication.h
+TObject.h
+/home/advait/rootbuild/include/TObject.h
+TQObject.h
+/home/advait/rootbuild/include/TQObject.h
+TApplicationImp.h
+/home/advait/rootbuild/include/TApplicationImp.h
+
+/home/advait/rootbuild/include/TApplicationImp.h
+TString.h
+/home/advait/rootbuild/include/TString.h
+
 /home/advait/rootbuild/include/TArray.h
 Rtypes.h
 /home/advait/rootbuild/include/Rtypes.h
@@ -206,6 +236,22 @@ TAttAxis.h
 TArrayD.h
 /home/advait/rootbuild/include/TArrayD.h
 
+/home/advait/rootbuild/include/TBuffer.h
+TDataType.h
+/home/advait/rootbuild/include/TDataType.h
+TObject.h
+/home/advait/rootbuild/include/TObject.h
+TClass.h
+/home/advait/rootbuild/include/TClass.h
+Bytes.h
+/home/advait/rootbuild/include/Bytes.h
+vector
+-
+string
+-
+typeinfo
+-
+
 /home/advait/rootbuild/include/TCanvas.h
 TPad.h
 /home/advait/rootbuild/include/TPad.h
@@ -257,6 +303,20 @@ TNamed.h
 /home/advait/rootbuild/include/TNamed.h
 ESTLType.h
 /home/advait/rootbuild/include/ESTLType.h
+
+/home/advait/rootbuild/include/TDirectory.h
+TNamed.h
+/home/advait/rootbuild/include/TNamed.h
+TClass.h
+/home/advait/rootbuild/include/TClass.h
+TUUID.h
+/home/advait/rootbuild/include/TUUID.h
+atomic
+-
+TList.h
+/home/advait/rootbuild/include/TList.h
+TBuffer.h
+/home/advait/rootbuild/include/TBuffer.h
 
 /home/advait/rootbuild/include/TError.h
 DllImport.h
@@ -544,6 +604,24 @@ TVirtualQConnection.h
 TQClass.h
 /home/advait/rootbuild/include/TQClass.h
 
+/home/advait/rootbuild/include/TROOT.h
+TDirectory.h
+/home/advait/rootbuild/include/TDirectory.h
+atomic
+-
+string
+-
+vector
+-
+utility
+-
+
+/home/advait/rootbuild/include/TRint.h
+TApplication.h
+/home/advait/rootbuild/include/TApplication.h
+TString.h
+/home/advait/rootbuild/include/TString.h
+
 /home/advait/rootbuild/include/TSchemaHelper.h
 RtypesCore.h
 /home/advait/rootbuild/include/RtypesCore.h
@@ -579,6 +657,10 @@ cstring
 -
 string
 -
+
+/home/advait/rootbuild/include/TUUID.h
+Rtypes.h
+/home/advait/rootbuild/include/Rtypes.h
 
 /home/advait/rootbuild/include/TVector2.h
 TObject.h

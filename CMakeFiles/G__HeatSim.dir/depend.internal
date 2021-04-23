@@ -31,12 +31,14 @@ CMakeFiles/G__HeatSim.dir/G__HeatSim.cxx.o
  /home/advait/rootbuild/include/TArrayS.h
  /home/advait/rootbuild/include/TAttAxis.h
  /home/advait/rootbuild/include/TAttBBox2D.h
+ /home/advait/rootbuild/include/TAttCanvas.h
  /home/advait/rootbuild/include/TAttFill.h
  /home/advait/rootbuild/include/TAttLine.h
  /home/advait/rootbuild/include/TAttMarker.h
  /home/advait/rootbuild/include/TAttPad.h
  /home/advait/rootbuild/include/TAxis.h
  /home/advait/rootbuild/include/TBuffer.h
+ /home/advait/rootbuild/include/TCanvas.h
  /home/advait/rootbuild/include/TClass.h
  /home/advait/rootbuild/include/TCollection.h
  /home/advait/rootbuild/include/TCollectionProxyInfo.h
