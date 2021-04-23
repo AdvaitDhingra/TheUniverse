@@ -19,7 +19,7 @@ int main() {
   TApplication app("app", nullptr, nullptr);
 
   const Double_t WiensDisplacementConstant = 2.897771955e-3;
-  Double_t startingTemp = 10e14;
+  Double_t startingTemp = 10e13;
   Double_t expansionAcceleration = 2;
   Double_t currentExpasionSpeed = 0;
 
