@@ -5,6 +5,7 @@
 #include "TVirtualPad.h"
 #include "TMath.h"
 #include "TROOT.h"
+#include "TApplication.h"
 
 Double_t redshift(Double_t velocity, Double_t frequencyOfLight) {
   Double_t shiftedFrequency = ((TMath::C() - velocity)/(TMath::C())) * frequencyOfLight;
@@ -14,6 +15,8 @@ Double_t redshift(Double_t velocity, Double_t frequencyOfLight) {
 }
 
 int main() {
+
+  TApplication app("app", nullptr, nullptr);
 
   const Double_t WiensDisplacementConstant = 2.897771955e-3;
   Double_t startingTemp = 10e13;
@@ -34,5 +37,7 @@ int main() {
 
   universe->Draw();
 
+
+  app.Run();
   return 0;
 }

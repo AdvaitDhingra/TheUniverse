@@ -19,6 +19,8 @@ TMath.h
 /home/advait/Documents/Coding/HeatSimulation/TMath.h
 TROOT.h
 /home/advait/Documents/Coding/HeatSimulation/TROOT.h
+TApplication.h
+/home/advait/Documents/Coding/HeatSimulation/TApplication.h
 
 /home/advait/Documents/Coding/HeatSimulation/HeatSim.h
 TVector3.h
