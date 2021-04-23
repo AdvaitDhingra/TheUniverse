@@ -20,7 +20,7 @@ int main() {
 
   const Double_t WiensDisplacementConstant = 2.897771955e-3;
   Double_t startingTemp = 10e13;
-  Double_t expansionAcceleration = 17000;
+  Double_t expansionAcceleration = 2;
   Double_t currentExpasionSpeed = 0;
 
   Double_t heat = startingTemp;
@@ -28,7 +28,7 @@ int main() {
 
   TGraph *universe = new TGraph();
 
-  for (int i = 0; i < 1000; i++) {
+  for (int i = 0; i < 100000; i++) {
     universe->SetPoint(universe->GetN(), i, heat);
     currentExpasionSpeed += expansionAcceleration;
     heat = WiensDisplacementConstant/ (TMath::C()/redshift(currentExpasionSpeed, TMath::C()/peakWavelength));
