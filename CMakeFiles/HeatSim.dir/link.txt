@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHeatSim.a  CMakeFiles/G__HeatSim.dir/G__HeatSim.cxx.o
+/usr/bin/ranlib libHeatSim.a

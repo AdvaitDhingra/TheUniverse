@@ -1,0 +1,7 @@
+module "HeatSim" {
+  requires cplusplus
+  module "HeatSim.h" { header "HeatSim.h" export * }
+  link "libHeatSim.so"
+  export *
+}
+

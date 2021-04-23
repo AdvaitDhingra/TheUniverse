@@ -1,0 +1,5 @@
+/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/rebuild_cache.dir
+/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/edit_cache.dir
+/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/HeatSimulation.dir
+/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/G__HeatSim.dir
+/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/HeatSim.dir
