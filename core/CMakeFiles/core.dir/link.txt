@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/TheUniverse.cxx.o
-/usr/bin/ranlib libcore.a
+/usr/bin/ar qc ../lib/libcore.a  CMakeFiles/core.dir/TheUniverse.cxx.o
+/usr/bin/ranlib ../lib/libcore.a

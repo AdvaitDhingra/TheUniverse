@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../lib/libcore.a"
+  "../lib/libcore.pdb"
   "CMakeFiles/core.dir/TheUniverse.cxx.o"
-  "libcore.a"
-  "libcore.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
