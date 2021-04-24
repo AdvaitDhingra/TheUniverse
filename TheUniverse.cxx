@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "HeatSim.h"
+#include "TheUniverse.h"
 #include "TRint.h"
 #include "TVirtualPad.h"
 #include "TMath.h"

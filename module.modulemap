@@ -1,7 +1,7 @@
-module "HeatSim" {
+module "TheUniverse" {
   requires cplusplus
-  module "HeatSim.h" { header "HeatSim.h" export * }
-  link "libHeatSim.so"
+  module "TheUniverse.h" { header "TheUniverse.h" export * }
+  link "libTheUniverse.so"
   export *
 }
 

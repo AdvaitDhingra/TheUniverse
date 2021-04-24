@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTheUniverse.a  CMakeFiles/G__Universe.dir/G__Universe.cxx.o
+/usr/bin/ranlib libTheUniverse.a
