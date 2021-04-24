@@ -22,6 +22,7 @@ int main() {
   Double_t startingTemp = 10e13;
   Double_t expansionAcceleration = 2;
   Double_t currentExpasionSpeed = 0;
+  const Double_t vacuumEnergy = 2.7;
 
   Double_t heat = startingTemp;
   Double_t peakWavelength = WiensDisplacementConstant/heat;
@@ -31,7 +32,7 @@ int main() {
   for (int i = 0; i < 100000; i++) {
     universe->SetPoint(universe->GetN(), i, heat);
     currentExpasionSpeed += expansionAcceleration;
-    heat = WiensDisplacementConstant/ (TMath::C()/redshift(currentExpasionSpeed, TMath::C()/peakWavelength));
+    heat = WiensDisplacementConstant/ (TMath::C()/redshift(currentExpasionSpeed, TMath::C()/peakWavelength)) + vacuumEnergy;
     peakWavelength = WiensDisplacementConstant/heat;
   }
 
