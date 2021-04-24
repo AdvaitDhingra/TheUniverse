@@ -182,35 +182,35 @@ G__Universe.cxx.s:
 	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/G__Universe.cxx.s
 .PHONY : G__Universe.cxx.s
 
-TheUniverse.o: TheUniverse.cxx.o
+src/TheUniverse.o: src/TheUniverse.cxx.o
 
-.PHONY : TheUniverse.o
+.PHONY : src/TheUniverse.o
 
 # target to build an object file
-TheUniverse.cxx.o:
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.o
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/TheUniverse.cxx.o
-.PHONY : TheUniverse.cxx.o
+src/TheUniverse.cxx.o:
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/src/TheUniverse.cxx.o
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/src/TheUniverse.cxx.o
+.PHONY : src/TheUniverse.cxx.o
 
-TheUniverse.i: TheUniverse.cxx.i
+src/TheUniverse.i: src/TheUniverse.cxx.i
 
-.PHONY : TheUniverse.i
+.PHONY : src/TheUniverse.i
 
 # target to preprocess a source file
-TheUniverse.cxx.i:
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.i
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/TheUniverse.cxx.i
-.PHONY : TheUniverse.cxx.i
+src/TheUniverse.cxx.i:
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/src/TheUniverse.cxx.i
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/src/TheUniverse.cxx.i
+.PHONY : src/TheUniverse.cxx.i
 
-TheUniverse.s: TheUniverse.cxx.s
+src/TheUniverse.s: src/TheUniverse.cxx.s
 
-.PHONY : TheUniverse.s
+.PHONY : src/TheUniverse.s
 
 # target to generate assembly for a file
-TheUniverse.cxx.s:
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.s
-	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/TheUniverse.cxx.s
-.PHONY : TheUniverse.cxx.s
+src/TheUniverse.cxx.s:
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/src/TheUniverse.cxx.s
+	cd /home/advait/Documents/Coding/TheUniverseSimulation && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/src/TheUniverse.cxx.s
+.PHONY : src/TheUniverse.cxx.s
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... G__Universe.o"
 	@echo "... G__Universe.i"
 	@echo "... G__Universe.s"
-	@echo "... TheUniverse.o"
-	@echo "... TheUniverse.i"
-	@echo "... TheUniverse.s"
+	@echo "... src/TheUniverse.o"
+	@echo "... src/TheUniverse.i"
+	@echo "... src/TheUniverse.s"
 .PHONY : help
 
 

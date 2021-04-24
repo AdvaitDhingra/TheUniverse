@@ -1,6 +1,6 @@
 module "TheUniverse" {
   requires cplusplus
-  module "TheUniverse.h" { header "TheUniverse.h" export * }
+  module "inc/TheUniverse.h" { header "inc/TheUniverse.h" export * }
   link "libTheUniverse.so"
   export *
 }

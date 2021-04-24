@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "TheUniverse.h"
+#include "../inc/TheUniverse.h"
 #include "TRint.h"
 #include "TVirtualPad.h"
 #include "TMath.h"
