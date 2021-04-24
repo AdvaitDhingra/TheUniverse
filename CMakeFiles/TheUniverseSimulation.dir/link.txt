@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -pipe -fsigned-char -pthread  -rdynamic CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.o CMakeFiles/TheUniverseSimulation.dir/G__Universe.cxx.o  -o TheUniverseSimulation   -L/home/advait/rootbuild/lib  -Wl,-rpath,/home/advait/rootbuild/lib -lCore -lPhysics -lGraf -lMathCore -lGui -lHist -lRooFitCore -lGpad 

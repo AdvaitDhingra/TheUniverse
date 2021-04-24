@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/advait/Documents/Coding/HeatSimulation
+CMAKE_SOURCE_DIR = /home/advait/Documents/Coding/TheUniverseSimulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/advait/Documents/Coding/HeatSimulation
+CMAKE_BINARY_DIR = /home/advait/Documents/Coding/TheUniverseSimulation
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/advait/Documents/Coding/HeatSimulation/CMakeFiles /home/advait/Documents/Coding/HeatSimulation/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/advait/Documents/Coding/TheUniverseSimulation/CMakeFiles /home/advait/Documents/Coding/TheUniverseSimulation/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/advait/Documents/Coding/HeatSimulation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/advait/Documents/Coding/TheUniverseSimulation/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -120,91 +120,34 @@ TheUniverseSimulation: cmake_check_build_system
 
 # fast build rule for target.
 TheUniverseSimulation/fast:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/build
+	$(MAKE) -f core/CMakeFiles/TheUniverseSimulation.dir/build.make core/CMakeFiles/TheUniverseSimulation.dir/build
 .PHONY : TheUniverseSimulation/fast
 
 #=============================================================================
-# Target rules for targets named G__Universe
+# Target rules for targets named core
 
 # Build rule for target.
-G__Universe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 G__Universe
-.PHONY : G__Universe
+core: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 core
+.PHONY : core
 
 # fast build rule for target.
-G__Universe/fast:
-	$(MAKE) -f CMakeFiles/G__Universe.dir/build.make CMakeFiles/G__Universe.dir/build
-.PHONY : G__Universe/fast
+core/fast:
+	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
+.PHONY : core/fast
 
 #=============================================================================
-# Target rules for targets named TheUniverse
+# Target rules for targets named G__HeatSim
 
 # Build rule for target.
-TheUniverse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TheUniverse
-.PHONY : TheUniverse
+G__HeatSim: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 G__HeatSim
+.PHONY : G__HeatSim
 
 # fast build rule for target.
-TheUniverse/fast:
-	$(MAKE) -f CMakeFiles/TheUniverse.dir/build.make CMakeFiles/TheUniverse.dir/build
-.PHONY : TheUniverse/fast
-
-G__Universe.o: G__Universe.cxx.o
-
-.PHONY : G__Universe.o
-
-# target to build an object file
-G__Universe.cxx.o:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/G__Universe.cxx.o
-	$(MAKE) -f CMakeFiles/G__Universe.dir/build.make CMakeFiles/G__Universe.dir/G__Universe.cxx.o
-.PHONY : G__Universe.cxx.o
-
-G__Universe.i: G__Universe.cxx.i
-
-.PHONY : G__Universe.i
-
-# target to preprocess a source file
-G__Universe.cxx.i:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/G__Universe.cxx.i
-	$(MAKE) -f CMakeFiles/G__Universe.dir/build.make CMakeFiles/G__Universe.dir/G__Universe.cxx.i
-.PHONY : G__Universe.cxx.i
-
-G__Universe.s: G__Universe.cxx.s
-
-.PHONY : G__Universe.s
-
-# target to generate assembly for a file
-G__Universe.cxx.s:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/G__Universe.cxx.s
-	$(MAKE) -f CMakeFiles/G__Universe.dir/build.make CMakeFiles/G__Universe.dir/G__Universe.cxx.s
-.PHONY : G__Universe.cxx.s
-
-TheUniverse.o: TheUniverse.cxx.o
-
-.PHONY : TheUniverse.o
-
-# target to build an object file
-TheUniverse.cxx.o:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.o
-.PHONY : TheUniverse.cxx.o
-
-TheUniverse.i: TheUniverse.cxx.i
-
-.PHONY : TheUniverse.i
-
-# target to preprocess a source file
-TheUniverse.cxx.i:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.i
-.PHONY : TheUniverse.cxx.i
-
-TheUniverse.s: TheUniverse.cxx.s
-
-.PHONY : TheUniverse.s
-
-# target to generate assembly for a file
-TheUniverse.cxx.s:
-	$(MAKE) -f CMakeFiles/TheUniverseSimulation.dir/build.make CMakeFiles/TheUniverseSimulation.dir/TheUniverse.cxx.s
-.PHONY : TheUniverse.cxx.s
+G__HeatSim/fast:
+	$(MAKE) -f core/CMakeFiles/G__HeatSim.dir/build.make core/CMakeFiles/G__HeatSim.dir/build
+.PHONY : G__HeatSim/fast
 
 # Help Target
 help:
@@ -213,16 +156,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TheUniverseSimulation"
-	@echo "... G__Universe"
 	@echo "... edit_cache"
-	@echo "... TheUniverse"
-	@echo "... G__Universe.o"
-	@echo "... G__Universe.i"
-	@echo "... G__Universe.s"
-	@echo "... TheUniverse.o"
-	@echo "... TheUniverse.i"
-	@echo "... TheUniverse.s"
+	@echo "... TheUniverseSimulation"
+	@echo "... core"
+	@echo "... G__HeatSim"
 .PHONY : help
 
 

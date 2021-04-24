@@ -1,5 +1,7 @@
-/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/rebuild_cache.dir
-/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/TheUniverseSimulation.dir
-/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/G__Universe.dir
-/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/edit_cache.dir
-/home/advait/Documents/Coding/HeatSimulation/CMakeFiles/TheUniverse.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/CMakeFiles/rebuild_cache.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/CMakeFiles/edit_cache.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/core/CMakeFiles/rebuild_cache.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/core/CMakeFiles/edit_cache.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/core/CMakeFiles/TheUniverseSimulation.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/core/CMakeFiles/core.dir
+/home/advait/Documents/Coding/TheUniverseSimulation/core/CMakeFiles/G__HeatSim.dir
