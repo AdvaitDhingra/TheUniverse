@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 find_package(ROOT 6.16 CONFIG REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ./lib)
 
 include(${ROOT_USE_FILE})
 include_directories(${ROOT_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR})
