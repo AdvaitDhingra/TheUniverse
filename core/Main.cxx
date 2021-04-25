@@ -3,15 +3,21 @@
 #include <string>
 #include "src/Heat.cxx"
 
-int main(Double_t startingTemp, Double_t acceleration) {
+int main() {
 
   fstream godFile;
 
   godFile.open("../god.txt", ios::in);
   
-  
+  while(1) {
+    godFile << startingTemp << acceleration;
 
-  Heat(1200, 120);
+    if (file.eof()) break;
+  }
+
+  godFile.close();
+
+  Heat(startingTemp, acceleration);
 
   return 0;
 };
