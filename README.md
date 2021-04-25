@@ -5,7 +5,7 @@ This is a simple project to simulate what a hypothetical universe would be like 
 
 ## Overview
 
-This project is based on the ROOT framework (repo [here](github.com/root-project/root)) . The layout of the project is also loosley based on that of ROOT, as it is the repo with which I learned most of my C++ skills. You may find some similarities between it's layout and this one.
+This project is based on the ROOT framework (repo [here](https://github.com/root-project/root)) . The layout of the project is also loosley based on that of ROOT, as it is the repo with which I learned most of my C++ skills. You may find some similarities between it's layout and this one.
 
 ## Installation
 
