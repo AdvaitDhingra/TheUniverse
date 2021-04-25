@@ -9,15 +9,15 @@ include(${ROOT_USE_FILE})
 include_directories(${ROOT_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR})
 link_directories(${ROOT_LIBRARY_DIR})
 
-root_generate_dictionary(G__HeatSim inc/TheUniverse.h MODULE TheUniverse LINKDEF UniverseLinkDef.h)
+root_generate_dictionary(G__HeatSim Main.h MODULE TheUniverse LINKDEF UniverseLinkDef.h)
 
 set(core_source_files
-  src/TheUniverse.cxx
-  inc/TheUniverse.h
+  Main.cxx
+  Main.h
 )
 
 add_library(core ${core_source_files})
 
-add_executable(TheUniverseSimulation src/TheUniverse.cxx G__Universe.cxx)
+add_executable(TheUniverseSimulation Main.cxx G__Universe.cxx)
 
 target_link_libraries(TheUniverseSimulation Core Physics Graf MathCore Gui Hist RooFitCore Gpad)

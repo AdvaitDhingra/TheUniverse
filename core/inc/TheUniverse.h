@@ -1,6 +1,0 @@
-#include "TVector3.h"
-#include "TGraph.h"
-#include "TMath.h"
-#include "TPad.h"
-#include "TH2F.h"
-#include "TCanvas.h"

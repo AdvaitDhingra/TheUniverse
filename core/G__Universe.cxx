@@ -35,7 +35,7 @@
 #include "TDataMember.h"
 
 // Header files passed as explicit arguments
-#include "inc/TheUniverse.h"
+#include "Main.h"
 
 // Header files passed via #pragma extra_include
 
