@@ -2,22 +2,28 @@
 #include <fstream>
 #include <string>
 #include "src/Heat.cxx"
+#include "Main.h"
+
+using namespace std;
 
 int main() {
 
   fstream godFile;
 
-  godFile.open("../god.txt", ios::in);
-  
-  while(1) {
-    godFile << startingTemp << acceleration;
+  float startingTemp;
+  double acceleration;
 
-    if (file.eof()) break;
-  }
 
+  godFile.open("god.txt", ios::in);
+
+
+  godFile >> startingTemp;
+
+
+
+  cout << startingTemp << endl;
+
+  Heat(startingTemp, 12);
   godFile.close();
-
-  Heat(startingTemp, acceleration);
-
   return 0;
 };
