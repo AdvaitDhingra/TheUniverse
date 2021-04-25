@@ -17,6 +17,13 @@ This project is based on the ROOT framework (repo [here](github.com/root-project
 cmake .
 make
 cd /bin
+```
+3. Modify bin/god.txt like so:
+First number: starting temperature
+Second number: acceleration
+
+4. Run:
+```shell
 ./TheUniverseSimulation
 ```
 
