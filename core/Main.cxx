@@ -10,20 +10,17 @@ int main() {
 
   fstream godFile;
 
-  float startingTemp;
-  double acceleration;
+  Double_t startingTemp;
+  Double_t acceleration;
 
 
   godFile.open("god.txt", ios::in);
 
 
-  godFile >> startingTemp;
+  godFile >> startingTemp >> acceleration;
 
 
-
-  cout << startingTemp << endl;
-
-  Heat(startingTemp, 12);
+  Heat(startingTemp, acceleration);
   godFile.close();
   return 0;
 };
