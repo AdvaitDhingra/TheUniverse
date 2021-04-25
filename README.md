@@ -10,19 +10,20 @@ This project is based on the ROOT framework (repo [here](https://github.com/root
 ## Installation
 
 1. First you need to install ROOT, which is the main requirement for this project. Instructions on how to do this are on [their website](https://root.cern/install/)
+2. fork this repo, clone and cd into it.
 
-2. Then just run these commands:
+3. Then just run these commands:
 
 ```shell
 cmake .
 make
 cd /bin
 ```
-3. Modify bin/god.txt like so:
+4. Modify bin/god.txt like so:
 First number: starting temperature
 Second number: acceleration
 
-4. Run:
+5. Run:
 ```shell
 ./TheUniverseSimulation
 ```
